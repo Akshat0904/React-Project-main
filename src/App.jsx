@@ -24,7 +24,7 @@ function App() {
         <section id="examples">
           <h2>Examples</h2>
           <menu>
-            <TabButton>Component</TabButton>
+            <TabButton label="Component"></TabButton>
           </menu>
         </section>
       </main>

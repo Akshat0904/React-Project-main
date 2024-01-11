@@ -1,7 +1,7 @@
-export default function ({ children }) {
+export default function ({ label }) {
   return (
     <li>
-      <button>{children}</button>
+      <button>{label}</button>
     </li>
   );
 }

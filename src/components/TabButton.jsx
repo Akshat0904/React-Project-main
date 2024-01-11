@@ -1,7 +1,11 @@
-export default function ({ label }) {
+export default function ({ children, onSelect }) {
+  function handleClick() {
+    console.log("Hello world");
+  }
+
   return (
     <li>
-      <button>{label}</button>
+      <button onClick={onSelect}>{children}</button>
     </li>
   );
 }

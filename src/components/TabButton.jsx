@@ -1,7 +1,5 @@
 export default function ({ children, onSelect }) {
-  function handleClick() {
-    console.log("Hello world");
-  }
+  console.log("tabButton comoponent executing");
 
   return (
     <li>

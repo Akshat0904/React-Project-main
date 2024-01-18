@@ -1,9 +1,12 @@
-export default function ({ children, onSelect }) {
+export default function ({ children, onSelect, isSelected }) {
   console.log("tabButton comoponent executing");
 
   return (
     <li>
-      <button onClick={onSelect}>{children}</button>
+      {/* Add dynamic styling using className */}
+      <button className={isSelected ? "active" : undefined} onClick={onSelect}>
+        {children}
+      </button>
     </li>
   );
 }
